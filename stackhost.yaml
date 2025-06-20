@@ -1,0 +1,17 @@
+user:
+  name: youssof
+  github: youssofmousssa
+
+language: "python"
+python_version: "3.11"
+
+commands:
+  build:
+    - "pip install -r requirements.txt"
+  start:
+    - "python3 pp.py"
+
+env:
+  - "TELEGRAM_TOKEN=8189213742:AAEaqylJAdHgkYA9dUXi27L9_uMeY9KnM_0"
+  - "A4F_API_KEY=ddc-a4f-93fa3ba5eb0d46d8af0a3534fd623dba"
+  - "A4F_BASE_URL=https://api.a4f.co/v1"
